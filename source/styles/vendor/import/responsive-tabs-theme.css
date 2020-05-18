@@ -1,0 +1,44 @@
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.r-tabs .r-tabs-tab {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.r-tabs .r-tabs-panel {
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+.r-tabs-panel.r-tabs-state-default{
+  display: none;
+}
+
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+    /* .r-tabs .r-tabs-nav {
+        //display: none;
+    } */
+
+    .r-tabs .r-tabs-accordion-title {
+        display: none;
+    }
+}

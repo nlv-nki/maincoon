@@ -1,0 +1,15 @@
+body,h1,h2,h3 {
+  font-family: $base-font;
+  font-weight: 400;
+  background-color: $background-color;
+  color: $base-color;
+}
+
+span,p {
+  font-family: $text-font;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

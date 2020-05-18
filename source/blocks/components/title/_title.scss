@@ -1,0 +1,76 @@
+
+.title {
+
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 52px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom:30px;
+ // width: 250px;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.title--section {
+  font-size: 28px;
+
+}
+
+.title__stitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 150%;
+  margin-bottom:20px;
+  color: #A07B50;
+}
+
+.title__desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 150%;
+  margin-bottom:56px;
+  background-color: transparent;
+  color: #A07B50;
+}
+
+.title__desc--section {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+
+  .title {
+    text-align: left;
+  }
+
+  .title__desc {
+    text-align: left;
+  }
+
+
+  .title--section {
+    text-align: center;
+    font-size: 36px;
+
+  }
+
+  .title__desc--section {
+
+    text-align: center;
+  }
+
+
+}
+

@@ -1,0 +1,97 @@
+.pet-care {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__item {
+    position: relative;
+    width: 290px;
+    height: 152px;
+    border: 0.5px solid #A07B50;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+
+  &__link {
+    padding: 21px 18% 18px 24px;
+    height: 152px;
+    display: block;
+    text-decoration: none;
+
+    h3 {
+      background-color:transparent;
+    }
+  }
+
+  &__link-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #a07b50;
+  }
+
+  &__link-content {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+
+  }
+
+  &__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 151px;
+    background-color: #a07b50;
+    border-left: 1px solid #a07b50;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__arrow {
+    width:8px;
+    height: 18px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+
+    use {
+      fill: #A07B50;
+      border: 0.2px solid #FFFFFF;
+      stroke: #fff;
+      stroke-width: 0.5px;
+    }
+  }
+}
+
+@media all and (min-width:768px) {
+  .pet-care {
+    &__item {
+      width: 500px;
+    }
+  }
+}
+
+
+@media all and (min-width:1023px) {
+  .pet-care {
+    &__wrapper {
+      width: 1023px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}

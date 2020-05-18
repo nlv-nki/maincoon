@@ -1,0 +1,20 @@
+.pets {
+background-color:#1F1C1D;
+padding-bottom: 50px;
+
+}
+
+.pets__wrapper {
+  padding-top: 60px;
+  width: 320px;
+  margin: 0 auto;
+ // margin-top: 60px;
+  text-align: center;
+}
+
+
+@media all and (min-width:768px) {
+  .pets__wrapper {
+  width:768px;
+  }
+}

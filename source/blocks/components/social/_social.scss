@@ -1,0 +1,20 @@
+.social {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+  list-style: none;
+  width:150px;
+
+  &__item  {
+    width:30px;
+    margin: 0 auto;
+  }
+
+  &__item svg {
+    fill:#A07B50;
+    width:30px;
+    height: 16px;
+  }
+}
+
